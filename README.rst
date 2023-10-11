@@ -61,8 +61,9 @@ yourself.
 Running the tests
 -----------------
 ::
-
-    make test
+    install Django 4.2.5
+    cd django-optimistic-lock/tests
+    python manage.py test
 
 
 .. [1] http://martinfowler.com/eaaCatalog/optimisticOfflineLock.html
