@@ -62,7 +62,9 @@ Running the tests
 -----------------
 ::
     install Django 4.2.5
+
     cd django-optimistic-lock/tests
+
     python manage.py test
 
 
